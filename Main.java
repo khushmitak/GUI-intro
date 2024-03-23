@@ -6,6 +6,10 @@ public class Main {
         JOptionPane.showMessageDialog(null, "Hello " + name);
 
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
-        JOptionPane.showMessageDialog(null, "You are " + age + " years old.");
+        JOptionPane.showMessageDialog(null, "You are " + age i+ " years old.");
+
+        double height = double.parseDouble(JOptionPane.showInputDialog("Enter your height in cms"));
+        JOptionPane.showMessageDialog(null, "You are " + height + " cms in height.");
+
     }
 }
